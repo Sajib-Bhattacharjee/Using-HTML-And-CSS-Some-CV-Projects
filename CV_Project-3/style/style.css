@@ -1,0 +1,146 @@
+
+/*  All Reset Code Starts Here */ 
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ } 
+
+ html{
+     scroll-behavior: smooth;
+ } 
+
+ .universal-header{
+     text-align: left;
+     font-size: 20px;
+ } 
+ 
+/*  All Reset Code Ends Here */ 
+
+.container{
+    width: 95%;
+    max-width: 100%;
+    margin: auto;  
+    background-color: whitesmoke;
+ 
+    
+}  
+
+/*  Header Section Stars Here */ 
+.header-section{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+ 
+} 
+
+ .alignment{
+     text-align: center; 
+     margin: 10px;
+     font-size: 35px;
+ } 
+ 
+.horizontal-role{
+    
+    color: green;
+    width: 80%;
+    font-weight: bolder;
+    margin: auto;
+     
+    
+} 
+
+/* Header Section Ends Here */ 
+
+
+/*  Main Section Starts Here*/  
+ .main-section{
+    margin-top: 35px;
+ } 
+ aside{
+    width: 80%;
+    margin: auto;
+ }
+/* 
+ .carrier-objective{
+     width: 70%;
+     margin: auto;
+ } 
+ */
+ .carrier-header{
+     background-color: navy;
+     color: white;
+     margin: 20px 0px;
+ } 
+ .carrier-objective p{
+     margin: 10px;
+     text-align: justify; 
+ }
+/* Main Section Ends Here */ 
+
+/* Footer Section Starts Here  */ 
+.footer-section{
+
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin: auto;;
+}
+.footer-header{
+    font-size: 20px;
+    text-align: center;
+} 
+.footer-section p{
+   text-align: center;
+   margin: 0px;
+}
+/* Footer Section Ends Here */
+.education-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 251, 251);
+    color: black; 
+     
+  } 
+  .education-desc{ 
+      font-size: 30px;
+      font-weight: bolder;
+      margin: 0px  20px;
+      margin-top: 20px;
+    
+  }
+  .education-table{
+  
+  }
+  .education-table table{
+      border: 2px solid coral;
+      border-collapse: collapse;
+      margin:20px;
+  
+  } 
+  
+  .education-table table th,tr,td{
+      border: 2px solid coral;
+      padding:10px 30px;
+      text-align:center;
+     
+  }  
+  
+  .education-table th{
+      background-color: rgb(58, 194, 218);
+  } 
+  
+  .education-table tr:nth-child(even){
+      background-color: rgb(211, 79, 108);
+      ;
+  }
+  .education-table tr:nth-child(odd){
+      background-color:rgb(86, 227, 86)
+      ;
+  } 
+  .education-table tr:hover{
+      background-color: black; 
+      color:white;
+  
+  } 

@@ -1,0 +1,113 @@
+
+/*  All Reset Code Starts Here */ 
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ } 
+
+ html{
+     scroll-behavior: smooth;
+ } 
+
+ .universal-header{
+     text-align: left;
+     font-size: 20px;
+ } 
+ 
+/*  All Reset Code Ends Here */ 
+
+.container{
+    width: 95%;
+    max-width: 100%;
+    margin: auto;  
+    background-color: whitesmoke;
+ 
+    
+}  
+
+/*  Header Section Stars Here */  
+
+ 
+.profile-image{
+    height: 120px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+   
+}
+
+.header-bio{
+    margin-top: 30px;
+    float: left;
+    padding: 0 20px;
+    
+}
+.header-contact{
+    float: right;
+    
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+
+.clear-div{
+
+    clear: both; 
+
+}
+
+/* Header Section Ends Here */ 
+
+
+/*  Main Section Starts Here*/  
+ .main-section{
+    margin-top: 35px;
+ } 
+ aside{
+    width: 80%;
+    margin: auto;
+ }
+/* 
+ .carrier-objective{
+     width: 70%;
+     margin: auto;
+ } 
+ */
+ .carrier-header{
+     background-color: navy;
+     color: white;
+     margin: 20px 0px;
+ } 
+ .carrier-objective p{
+     margin: 10px;
+     text-align: justify; 
+ }
+/* Main Section Ends Here */ 
+
+/* Footer Section Starts Here  */ 
+.footer-section{
+
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin: auto;;
+}
+.footer-header{
+    font-size: 20px;
+    text-align: center;
+} 
+.footer-section p{
+   text-align: center;
+   margin: 0px;
+}
+/* Footer Section Ends Here */
